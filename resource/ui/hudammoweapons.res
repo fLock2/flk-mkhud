@@ -55,8 +55,8 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInClip"
 		"font"		"mkhealthammo"
-		"fgcolor"		"mkwhite"
-		"xpos"		"-95"
+		"fgcolor"		"flkwhite"
+		"xpos"		"-88"
 		"ypos"		"4"
 		"zpos"		"5"
 		"wide"		"200"
@@ -72,7 +72,7 @@
 		"fieldName"		"AmmoInClipShadow"
 		"font"		"mkHealthAmmoBlur"
 		"fgcolor"		"0 0 0 255"
-		"xpos"		"-95"
+		"xpos"		"-88"
 		"ypos"		"5"
 		"zpos"		"5"
 		"wide"		"200"
@@ -87,7 +87,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInReserve"
 		"font"		"mkreserve"
-		"xpos"		"110" // 114
+		"xpos"		"117" // 114
 		"ypos"		"24" // 24
 		"zpos"		"7"
 		"wide"		"80"
@@ -96,7 +96,7 @@
 		"enabled"		"1"
 		"textAlignment"	"west"		
 		"labelText"		"%AmmoInReserve%"
-		"fgcolor_override"		"mklightblue"
+		"fgcolor_override"		"flkpink"
 	}
 	"AmmoInReserveShadow"
 	{
@@ -104,7 +104,7 @@
 		"fieldName"		"AmmoInReserveshadow"
 		"font"		"mkReserveSHDW"
 		"fgcolor"		"0 0 0 255"
-		"xpos"		"110" // 114
+		"xpos"		"117" // 114
 		"ypos"		"25" // 24
 		"zpos"		"6"
 		"wide"		"80"
@@ -119,8 +119,8 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmonoClip"
 		"font"		"mkhealthammo"
-		"fgcolor"		"mkwhite"
-		"xpos"		"2"
+		"fgcolor"		"flkWhite"
+		"xpos"		"20"
 		"ypos"		"4"
 		"zpos"		"5"
 		"wide"		"125"
@@ -136,7 +136,7 @@
 		"fieldName"		"AmmonoClipshadow"
 		"font"		"mkHealthAmmoBlur"
 		"fgcolor"		"0 0 0 255"
-		"xpos"		"2"
+		"xpos"		"20"
 		"ypos"		"5"
 		"zpos"		"5"
 		"wide"		"125"

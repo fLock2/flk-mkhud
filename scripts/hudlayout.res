@@ -1,3 +1,6 @@
+/////////////////////// CROSSHAIRS //////////////////////
+#base "../resource/Crosshairs/crosshair.res"
+
 "Resource/HudLayout.res"
 {
 	HudPlayerStatus
@@ -39,8 +42,8 @@
 		"fieldName" "HudWeaponAmmo"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	"c49"  // c49
-		"ypos"	"r186" // r186
+		"xpos"	"c0"  // c49
+		"ypos"	"r184" // r186
 		"wide"	"250"
 		"tall"	"70"
 	}

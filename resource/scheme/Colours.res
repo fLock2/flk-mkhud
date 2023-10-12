@@ -37,9 +37,13 @@ Scheme
 		"mkOVERHEAL"		"0   230 118 255"				// Overheal Colour
 		"ItemPanelBG" 		"58  62  77  255"
 		
+		/////// FLOCK COLORS ///////
 		
+		"flkWhite"			"227 227 227 255" 				// Off-White
+		"flkPink"           "255 90 186 255"       		    // Pink
+		"flkLightYellow"	"255 237 115 255"				// Light Yellow
 		
-		
+		"flkOVERHEAL"		"64 240 255 255"
 		
 		
 		// STOCK TF2 COLOURS, SOME ARE MODIFIED

@@ -7,11 +7,13 @@
 //
 //
 //
+/////////////////////// CROSSHAIRS //////////////////////
+	#base "../resource/crosshairs/crosshair_scheme.res"
+//
 /////////////////// LEAVE THESE ALONE ///////////////////
 	#base 	"scheme/BaseSettings.res"
 	#base 	"scheme/Colours.res"
 	#base 	"scheme/Borders.res"
-	#base 	"scheme/xHairs.res"
 
 ///////////////////////////////////////////////////
 // IF YOU ARE EDITING MY HUD

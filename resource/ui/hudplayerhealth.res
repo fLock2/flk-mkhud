@@ -3,9 +3,10 @@
 	"HudPlayerHealth"
 	{
 		"ControlName"	"EditablePanel"
+		"xpos"			"c-180"
 		"fieldName"		"HudPlayerHealth"
-		"xpos"			"c-226"
-		"ypos"			"r210"
+		"ypos"			"r208"
+		"textAlignment"		"center"
 		"zpos"			"2"
 		"wide"			"250"
 		"tall"			"150"
@@ -88,7 +89,7 @@
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
 		"font"		"mkhealthammo"
-		"fgcolor"		"mkwhite"
+		"fgcolor"		"flkwhite"
 	}	
 	"PlayerStatusHealthValueShadow"
 	{

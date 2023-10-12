@@ -165,12 +165,12 @@ event HudHealthBonusPulse
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"		Linear 0.0 0.2
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"			Linear 0.2 0.4
 	
-	Animate PlayerStatusHealthValue 		 FgColor "mkOVERHEAL" Accel 0.0 0.0
-	Animate PlayerStatusHealthValueTargetID 		 FgColor "mkOVERHEAL" Accel 0.0 0.0
-	Animate CircleTargetID 		 FgColor "0   180 78 255" Accel 0.0 0.0
-	Animate PlayerStatusHealthValueSpectator FgColor "mkOVERHEAL" Accel 0.0 0.0
-	Animate PlayerStatusHealthValueFreezePanel FgColor "mkOVERHEAL" Accel 0.0 0.0
-	Animate TournamentSpectatorHealth FgColor "mkOVERHEAL" Accel 0.0 0.0
+	Animate PlayerStatusHealthValue 		 FgColor "flkOVERHEAL" Accel 0.0 0.0
+	Animate PlayerStatusHealthValueTargetID 		 FgColor "flkOVERHEAL" Accel 0.0 0.0
+	Animate CircleTargetID 		 FgColor "20 110 117 255" Accel 0.0 0.0
+	Animate PlayerStatusHealthValueSpectator FgColor "flkOVERHEAL" Accel 0.0 0.0
+	Animate PlayerStatusHealthValueFreezePanel FgColor "flkOVERHEAL" Accel 0.0 0.0
+	Animate TournamentSpectatorHealth FgColor "flkOVERHEAL" Accel 0.0 0.0
 
 	RunEvent HudHealthBonusPulseLoop	0.4
 }
@@ -186,12 +186,12 @@ event HudHealthBonusPulseStop
 	StopEvent HudHealthBonusPulse 0.0
 	StopEvent HudHealthBonusPulseLoop 0.0
 	
-	Animate PlayerStatusHealthValue FgColor "mkwhite" Accel 0.0 0.0
-	Animate PlayerStatusHealthValueSpectator FgColor "mkwhite" Accel 0.0 0.0
-	Animate PlayerStatusHealthValueFreezePanel FgColor "mkwhite" Accel 0.0 0.0
-	Animate TournamentSpectatorHealth FgColor "mkwhite" Accel 0.0 0.0
+	Animate PlayerStatusHealthValue FgColor "flkWhite" Accel 0.0 0.0
+	Animate PlayerStatusHealthValueSpectator FgColor "flkWhite" Accel 0.0 0.0
+	Animate PlayerStatusHealthValueFreezePanel FgColor "flkWhite" Accel 0.0 0.0
+	Animate TournamentSpectatorHealth FgColor "flkWhite" Accel 0.0 0.0
 	Animate PlayerStatusHealthValueTargetID 		 FgColor "mkdarkerblue" Accel 0.0 0.0
-	Animate CircleTargetID 		 FgColor "mkwhite" Accel 0.0 0.0
+	Animate CircleTargetID 		 FgColor "flkWhite" Accel 0.0 0.0
 }
 
 //===========================================
@@ -202,13 +202,13 @@ event HudHealthDyingPulse
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"		Linear 0.0 0.2
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"			Linear 0.2 0.2
 	
-	Animate PlayerStatusHealthValue 		 FgColor "mkhudredtext" Accel 0.0 0.0
-	Animate PlayerStatusHealthValueSpectator FgColor "mkhudredtext" Accel 0.0 0.0
-	Animate PlayerStatusHealthValueFreezePanel FgColor "mkhudredtext" Accel 0.0 0.0
-	Animate TournamentSpectatorHealth FgColor "mkhudredtext" Accel 0.0 0.0
+	Animate PlayerStatusHealthValue 		 	FgColor "flkLightYellow" Accel 0.0 0.0
+	Animate PlayerStatusHealthValueSpectator 	FgColor "flkLightYellow" Accel 0.0 0.0
+	Animate PlayerStatusHealthValueFreezePanel 	FgColor "flkLightYellow" Accel 0.0 0.0
+	Animate TournamentSpectatorHealth 			FgColor "flkLightYellow" Accel 0.0 0.0
 	
-	Animate PlayerStatusHealthValueTargetID 		 FgColor "mkhudredtext" Accel 0.0 0.0
-	Animate CircleTargetID 		 FgColor "178 20  20  255" Accel 0.0 0.0
+	Animate PlayerStatusHealthValueTargetID 		 FgColor "flkLightYellow" Accel 0.0 0.0
+	Animate CircleTargetID 		 					 FgColor "84 78 34 255"   Accel 0.0 0.0
 	
 	RunEvent HudHealthDyingPulseLoop	0.4
 }
@@ -224,12 +224,12 @@ event HudHealthDyingPulseStop
 	StopEvent HudHealthDyingPulse 0.0
 	StopEvent HudHealthDyingPulseLoop 0.0
 	
-	Animate PlayerStatusHealthValue FgColor "mkwhite" Accel 0.0 0.0
-	Animate PlayerStatusHealthValueSpectator FgColor "mkwhite" Accel 0.0 0.0
-	Animate PlayerStatusHealthValueFreezePanel FgColor "mkwhite" Accel 0.0 0.0
-	Animate TournamentSpectatorHealth FgColor "mkwhite" Accel 0.0 0.0
+	Animate PlayerStatusHealthValue FgColor "flkWhite" Accel 0.0 0.0
+	Animate PlayerStatusHealthValueSpectator FgColor "flkWhite" Accel 0.0 0.0
+	Animate PlayerStatusHealthValueFreezePanel FgColor "flkWhite" Accel 0.0 0.0
+	Animate TournamentSpectatorHealth FgColor "flkWhite" Accel 0.0 0.0
 	Animate PlayerStatusHealthValueTargetID 		 FgColor "mkdarkerblue" Accel 0.0 0.0
-	Animate CircleTargetID 		 FgColor "mkwhite" Accel 0.0 0.0
+	Animate CircleTargetID 		 FgColor "flkWhite" Accel 0.0 0.0
 }
 
 //===========================================
@@ -239,11 +239,11 @@ event HudLowAmmoPulse
 	Animate	HudWeaponLowAmmoImage		Alpha	"255"					Linear 0.0 		0.075
 	Animate	HudWeaponLowAmmoImage		Alpha	"0"						Linear 0.125 	0.075
 	
-	Animate AmmoInClip 					FgColor "mkhudredtext"			Linear 0.0 		0.000
+	Animate AmmoInClip 					FgColor "flkLightYellow"			Linear 0.0 		0.000
 
-	Animate AmmoInReserve 				FgColor "mkaccent" 	Linear 0.0 		0.000
+	Animate AmmoInReserve 				FgColor "flkPink" 	Linear 0.0 		0.000
 
-	Animate AmmoNoClip 					FgColor "mkaccent"		Linear 0.0 		0.000
+	Animate AmmoNoClip 					FgColor "flkLightYellow"		Linear 0.0 		0.000
 	
 	RunEvent HudLowAmmoPulseLoop	0.25
 }
@@ -259,11 +259,11 @@ event HudLowAmmoPulseStop
 	StopEvent HudLowAmmoPulse 0.0
 	StopEvent HudLowAmmoPulseLoop 0.0
 	
-	Animate	  AmmoInClip		FgColor		"mkwhite"			Accel 0.0 0.0
+	Animate	  AmmoInClip		FgColor		"flkWhite"			Accel 0.0 0.0
 	
-	Animate	  AmmoInReserve		FgColor		"mkLIGHTBLUE"		Accel 0.0 0.0
+	Animate	  AmmoInReserve		FgColor		"flkPink"			Accel 0.0 0.0
 
-	Animate	  AmmoNoClip		FgColor		"mkwhite"			Accel 0.0 0.0
+	Animate	  AmmoNoClip		FgColor		"flkWhite"			Accel 0.0 0.0
 }
 
 //===========================================

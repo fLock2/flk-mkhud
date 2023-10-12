@@ -2,5 +2,6 @@ hudanimations_manifest
 {
 
 	"file"		"scripts/hudanimations.txt"
+    "file" 		"resource/Crosshairs/crosshair_animation.txt"
 	"file"		"scripts/hudanimations_tf.txt"
 }
